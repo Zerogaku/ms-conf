@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.20/schema.json",
+  "app_specific_configuration_path": "$Env:USERPROFILE/applications.yaml",
+  "window_hiding_behaviour": "Cloak",
+  "cross_monitor_move_behaviour": "Insert",
+  "unmanaged_window_operation_behaviour": "Op",
+  "default_workspace_padding": 6,
+  "default_container_padding": 10,
+  "resize_delta": 100,
+  "mouse_follows_focus": false,
+  "active_window_border": false,
+  "active_window_border_width": 2,
+  "active_window_border_offset": 0,
+  "active_window_border_colours": {
+    "single": { "r": 30, "g": 144, "b": 255},
+    "stack": { "r": 256, "g": 165, "b": 66 },
+    "monocle": { "r": 255, "g": 51, "b": 153 }
+  },
+  "monitors": [
+    {
+      "workspaces": [ 
+        { "name": "I", "layout": "BSP" },
+        { "name": "II", "layout": "BSP" },
+        { "name": "III", "layout": "BSP" },
+        { "name": "IV", "layout": "BSP" },
+        { "name": "V", "layout": "BSP" },
+        { "name": "VI", "layout": "BSP" },
+        { "name": "VII", "layout": "BSP" },
+        { "name": "VIII", "layout": "BSP" },
+        { "name": "IX", "layout": "BSP" },
+        { "name": "X", "layout": "BSP" }
+      ]
+    }
+  ],
+  "float_rules": [
+    {
+      "kind":"Class",
+      "id":"PSDialogBox"
+    },
+    {
+      "kind":"Class",
+      "id":"RainmeterMeterWindow"
+    }
+  ]
+}
